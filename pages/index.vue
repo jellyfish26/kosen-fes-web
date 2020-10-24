@@ -24,85 +24,28 @@
         <h1 align="center"> 注意 </h1>
         <v-row justify="center">
           <v-col class="mx-12 my-6">
-            <v-layout justify-center>
-              <v-card
-                class="enter-school"
-                height="300px"
-                width="300px"
-                outlined
-              >
-                <v-layout 
-                  justify-center
-                  class="my-4"
-                >
-                  <v-list class="pa-0">
-                    <v-list-item>
-                      <p class="headline mx-auto"> 学内入構について </p>
-                    </v-list-item>
-                    <v-list-item>
-                      <v-icon class="mx-auto" color="#FF3F43" size="100px"> mdi-minus-circle </v-icon>
-                    </v-list-item>
-                    <v-list-item>
-                      <p class="subtitle my-3 mx-2"> 高専祭開催中は関係者のみが入構でき、一般の方は入構できません。予めご了承ください。 </p>
-                    </v-list-item>
-                  </v-list>
-                </v-layout>
-              </v-card>
-            </v-layout>
+            <InfoSquare
+              title="学内入構について"
+              icon="mdi-minus-circle"
+              rgb="#FF3F43"
+              description="高専祭開催中は関係者のみが入構でき、一般の方は入構できません。予めご了承ください。"
+            />
           </v-col>
           <v-col class="mx-12 my-6">
-            <v-layout justify-center>
-              <v-card
-                class="attack-server"
-                height="300px"
-                width="300px"
-                outlined
-              >
-                <v-layout 
-                  justify-center
-                  class="my-4"
-                >
-                  <v-list class="pa-0">
-                    <v-list-item>
-                      <p class="headline mx-auto"> サイトについて </p>
-                    </v-list-item>
-                    <v-list-item>
-                      <v-icon class="mx-auto" color="#7F41C0" size="100px"> mdi-lan-disconnect </v-icon>
-                    </v-list-item>
-                    <v-list-item>
-                      <p class="subtitle my-5 mx-2"> サーバーに負荷をかける行為はおやめください。 </p>
-                    </v-list-item>
-                  </v-list>
-                </v-layout>
-              </v-card>
-            </v-layout>
+            <InfoSquare
+              title="サイトについて"
+              icon="mdi-lan-disconnect"
+              rgb="#7F41C0"
+              description="サーバーに高負荷をかける行為はおやめください。"
+            />
           </v-col>
           <v-col class="mx-12 my-6">
-            <v-layout justify-center>
-              <v-card
-                class="contact"
-                height="300px"
-                width="300px"
-                outlined
-              >
-                <v-layout 
-                  justify-center
-                  class="my-4"
-                >
-                  <v-list class="pa-0">
-                    <v-list-item>
-                      <p class="headline mx-auto"> お問い合わせ </p>
-                    </v-list-item>
-                    <v-list-item>
-                      <v-icon class="mx-auto" color="#40C07F" size="100px"> mdi-email </v-icon>
-                    </v-list-item>
-                    <v-list-item>
-                      <p class="subtitle my-5 mx-2"> 高専祭委員会へは下記メールアドレスにお問い合わせください。 </p>
-                    </v-list-item>
-                  </v-list>
-                </v-layout>
-              </v-card>
-            </v-layout>
+            <InfoSquare
+              title="お問い合わせ"
+              icon="mdi-email"
+              rgb="#40C07F"
+              description="高専祭実行委員会へは下記メールアドレスにお問い合わせください。"
+            />
           </v-col>
         </v-row>
       </v-container>
@@ -110,8 +53,12 @@
 </template>
 
 <script>
+import InfoSquare from '@/components/InfoSquare'
 
 export default {
+  components: {
+    InfoSquare
+  },
   data() {
     return {
       top_image: require('@/assets/light-grey-terrazzo.png'),
@@ -123,17 +70,5 @@ export default {
 <style lang="scss" scoped>
 .top-content {
   background: url('~assets/light-grey-terrazzo.png') fixed repeat round;
-}
-
-.enter-school {
-  border: 5px solid #FF3F43;
-}
-
-.attack-server {
-  border: 5px solid #7F41C0;
-}
-
-.contact {
-  border: 5px solid #40C07F;
 }
 </style>
