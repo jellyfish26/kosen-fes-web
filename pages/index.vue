@@ -24,15 +24,15 @@
         <h1 align="center"> 注意 </h1>
         <v-row justify="center">
           <v-col class="mx-12 my-6">
-            <InfoSquare
+            <WarnSquare
               title="学内入構について"
               icon="mdi-minus-circle"
               rgb="#FF3F43"
-              description="高専祭開催中は関係者のみが入構でき、一般の方は入構できません。予めご了承ください。"
+              description="高専祭開催中は関係者のみ入構が許可されており、一般の方は入構できません。予めご了承ください。"
             />
           </v-col>
           <v-col class="mx-12 my-6">
-            <InfoSquare
+            <WarnSquare
               title="サイトについて"
               icon="mdi-lan-disconnect"
               rgb="#7F41C0"
@@ -40,7 +40,7 @@
             />
           </v-col>
           <v-col class="mx-12 my-6">
-            <InfoSquare
+            <WarnSquare
               title="お問い合わせ"
               icon="mdi-email"
               rgb="#40C07F"
@@ -49,14 +49,53 @@
           </v-col>
         </v-row>
       </v-container>
+      <v-layout class="fes-fun">
+        <v-container fluid style="width: 85%">
+          <h1 class="white--text" align="center"> オンラインを楽しむ！ </h1>
+          <v-row justify="center">
+            <v-col class="mx-12 my-3">
+              <InfoSquare
+                title="奈良高専祭とは"
+                icon="mdi-magnify"
+                link="about"
+              />
+            </v-col>
+            <v-col class="mx-12 my-3">
+              <InfoSquare
+                title="部活科展"
+                icon="mdi-biathlon"
+                link="club"
+              />
+            </v-col>
+          </v-row>
+          <v-row justify="center">
+            <v-col class="mx-12 my-3">
+              <InfoSquare
+                title="学科展"
+                icon="mdi-school"
+                link="course"
+              />
+            </v-col>
+            <v-col class="mx-12 my-3">
+              <InfoSquare
+                title="ライブ"
+                icon="mdi-animation-play"
+                link="live"
+              />
+            </v-col>
+          </v-row>
+        </v-container>
+      </v-layout>
   </v-app>
 </template>
 
 <script>
+import WarnSquare from '@/components/WarnSquare'
 import InfoSquare from '@/components/InfoSquare'
 
 export default {
   components: {
+    WarnSquare,
     InfoSquare
   },
   data() {
@@ -70,5 +109,9 @@ export default {
 <style lang="scss" scoped>
 .top-content {
   background: url('~assets/light-grey-terrazzo.png') fixed repeat round;
+}
+
+.fes-fun {
+  background: url('~assets/low_contrast_linen.png') fixed repeat round;
 }
 </style>

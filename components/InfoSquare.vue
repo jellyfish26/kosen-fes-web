@@ -1,26 +1,25 @@
 <template>
   <v-layout justify-center>
     <v-card
-      :style="{ 'border': '5px solid ' + rgb}"
-      height="300px"
-      width="300px"
-      outlined
+      :style="{ 'border': '5px solid #40C0FF'}"
+      height="100px"
+      width="100%"
+      min-width="250px"
+      hover
+      nuxt
+      :to="link"
     >
-      <v-layout 
-        justify-center
-        class="my-4"
+      <v-layout
+        class="ml-3 my-7"
       >
-        <v-list class="pa-0">
-          <v-list-item>
-            <p class="headline mx-auto"> {{ title }} </p>
-          </v-list-item>
-          <v-list-item>
-            <v-icon class="mx-auto" :color="rgb" size="100px"> {{ icon }}</v-icon>
-          </v-list-item>
-          <v-list-item>
-            <p class="subtitle my-3 mx-2"> {{ description }} </p>
-          </v-list-item>
-        </v-list>
+        <v-icon class="mx-auto" color="#40C0FF" size="40px"> {{ icon }}</v-icon>
+        <v-divider
+          class="mx-4"
+          vertical
+        ></v-divider>
+        <v-spacer />
+        <h3 class="mx-auto"> {{ title }} </h3>
+        <v-spacer />
       </v-layout>
     </v-card>
   </v-layout>
@@ -43,7 +42,11 @@ export default {
     },
     description: {
       type: String, 
-      default: "fugafuga"
+      default: 'fugafuga'
+    },
+    link: {
+      type: String,
+      default: '/'
     }
   }
 }

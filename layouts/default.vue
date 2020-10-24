@@ -51,10 +51,8 @@
     <v-main>
       <nuxt />
     </v-main>
-    <v-footer
-      absolute
-    >
-      <span>&copy; {{ new Date().getFullYear() }}</span>
+    <v-footer>
+      <span>&copy; 2020 情報処理研究会</span>
     </v-footer>
   </v-app>
 </template>
