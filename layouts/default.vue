@@ -41,19 +41,15 @@
       v-if="this.$vuetify.breakpoint.width < 1264"
       clipped-right
       fixed
-      absolute
       :src="navigation_image"
       app
     >
-      <v-spacer/>
       <h3> 第54回奈良高専祭 </h3>
       <v-spacer/>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
     </v-app-bar>
     <v-main>
-      <v-container>
-        <nuxt />
-      </v-container>
+      <nuxt />
     </v-main>
     <v-footer
       absolute
