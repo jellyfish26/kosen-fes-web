@@ -10,15 +10,15 @@
       :to="link"
     >
       <v-layout
-        class="ml-3 my-7"
+        class="ml-3 my-3"
       >
         <v-icon class="mx-auto" color="#40C0FF" size="40px"> {{ icon }}</v-icon>
         <v-divider
-          class="mx-4"
+          class="my-3 mx-5"
           vertical
         ></v-divider>
         <v-spacer />
-        <h3 class="mx-auto"> {{ title }} </h3>
+        <h3 class="my-5"> {{ title }} </h3>
         <v-spacer />
       </v-layout>
     </v-card>

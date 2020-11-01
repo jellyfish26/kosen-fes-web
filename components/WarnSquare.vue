@@ -20,6 +20,9 @@
           <v-list-item>
             <p class="subtitle my-3 mx-2"> {{ description }} </p>
           </v-list-item>
+          <v-list-item v-if="url != ''">
+            <a class="mx-2" :href="url"> {{ urlDesc }} </a>
+          </v-list-item>
         </v-list>
       </v-layout>
     </v-card>
@@ -44,6 +47,14 @@ export default {
     description: {
       type: String, 
       default: "fugafuga"
+    },
+    url: {
+      type: String, 
+      default: ""
+    },
+    urlDesc: {
+      type: String, 
+      default: ""
     }
   }
 }

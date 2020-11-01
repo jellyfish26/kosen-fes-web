@@ -44,7 +44,9 @@
               title="お問い合わせ"
               icon="mdi-email"
               rgb="#40C07F"
-              description="高専祭実行委員会へは下記メールアドレスにお問い合わせください。"
+              description="高専祭実行委員会へは下記にお問い合わせください。"
+              url="https://www.nara-k.ac.jp/inquiry/"
+              urlDesc="奈良高専 学生課学生係"
             />
           </v-col>
         </v-row>
@@ -55,7 +57,7 @@
           <v-row justify="center">
             <v-col class="mx-12 my-3">
               <InfoSquare
-                title="奈良高専祭とは"
+                title="実行委員会より"
                 icon="mdi-magnify"
                 link="about"
               />
