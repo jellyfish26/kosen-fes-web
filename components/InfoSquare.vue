@@ -3,7 +3,7 @@
     <v-card
       :style="{ 'border': '5px solid #40C0FF'}"
       height="100px"
-      width="100%"
+      width="85%"
       min-width="250px"
       hover
       nuxt

@@ -2,7 +2,8 @@
   <v-layout justify-center>
     <v-card
       :style="{ 'border': '5px solid ' + rgb}"
-      height="300px"
+      height="100%"
+      min-height="300px"
       width="300px"
       outlined
     >

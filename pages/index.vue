@@ -9,11 +9,11 @@
             <h1 align="center"> オンライン高専祭！ </h1>
           </v-col>
           <v-col class="pa-2" cols="12">
-            <h3 align="center"> 今年はすべての企画が本サイトにて公開されます！ </h3>
+            <h3 align="center"> 今年はすべての展示が本サイトにて公開されます！ </h3>
           </v-col>
           <v-col class="pa-2" cols="12">
             <h3 align="center"> 開催日： 2020年11月7日</h3>
-            <h3 align="center"> 動画配信期間： 〜11月14日</h3>
+            <h3 align="center"> 展示配信期間： 〜11月14日</h3>
           </v-col>
         </v-row>
       </v-container>
@@ -80,7 +80,7 @@
             </v-col>
             <v-col class="mx-12 my-3">
               <InfoSquare
-                title="ライブ"
+                title="企画(ライブ配信)"
                 icon="mdi-animation-play"
                 link="live"
               />
