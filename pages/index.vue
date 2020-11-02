@@ -1,93 +1,120 @@
 <template>
   <v-app>
-      <v-container
-        fluid
-        class="top-content"
-      >
+    <v-container
+      fluid
+      class="top-content"
+    >
+      <v-row no-gutters>
+        <v-col class="pa-2" cols="12">
+          <h1 align="center"> オンライン高専祭！ </h1>
+        </v-col>
+        <v-col class="pa-2" cols="12">
+          <h3 align="center"> 今年はすべての展示が本サイトにて公開されます！ </h3>
+        </v-col>
+        <v-col class="pa-2" cols="12">
+          <h3 align="center"> 開催日： 2020年11月7日</h3>
+          <h3 align="center"> 展示配信期間： 〜11月14日</h3>
+        </v-col>
+      </v-row>
+    </v-container>
+    <v-layout class="theme">
+      <v-container fluid style="width: 75%">
         <v-row no-gutters>
           <v-col class="pa-2" cols="12">
-            <h1 align="center"> オンライン高専祭！ </h1>
+            <h1 align="center"> テーマ </h1>
           </v-col>
           <v-col class="pa-2" cols="12">
-            <h3 align="center"> 今年はすべての展示が本サイトにて公開されます！ </h3>
+            <h3 align="center"> 「高専CUBE　～色とりどりに染め上げよう～」 </h3>
           </v-col>
-          <v-col class="pa-2" cols="12">
-            <h3 align="center"> 開催日： 2020年11月7日</h3>
-            <h3 align="center"> 展示配信期間： 〜11月14日</h3>
+        </v-row>
+        <v-row no-gutters justify="center" align="center">
+          <v-col class="pa-2">
+            <v-layout justify-center>
+              <v-img
+                max-width="350px"
+                :src="theme_image"
+              > </v-img>
+            </v-layout>
+          </v-col>
+          <v-col class="pa-2">
+            <v-layout align-center>
+              <p class="title" align="left"> temp temp </p>
+            </v-layout>
           </v-col>
         </v-row>
       </v-container>
-      <v-container
-        fluid
-        style="width: 85%"
-      >
-        <h1 align="center"> 注意 </h1>
+    </v-layout>
+    <v-container
+      fluid
+      style="width: 85%"
+    >
+      <h1 align="center"> 注意 </h1>
+      <v-row justify="center">
+        <v-col class="mx-12 my-6">
+          <WarnSquare
+            title="学内入構について"
+            icon="mdi-minus-circle"
+            rgb="#FF3F43"
+            description="高専祭開催中は関係者のみ入構が許可されており、一般の方は入構できません。予めご了承ください。"
+          />
+        </v-col>
+        <v-col class="mx-12 my-6">
+          <WarnSquare
+            title="サイトについて"
+            icon="mdi-lan-disconnect"
+            rgb="#7F41C0"
+            description="サーバーに高負荷をかける行為はおやめください。"
+          />
+        </v-col>
+        <v-col class="mx-12 my-6">
+          <WarnSquare
+            title="お問い合わせ"
+            icon="mdi-email"
+            rgb="#40C07F"
+            description="高専祭実行委員会へは下記にお問い合わせください。"
+            url="https://www.nara-k.ac.jp/inquiry/"
+            urlDesc="奈良高専 学生課学生係"
+          />
+        </v-col>
+      </v-row>
+    </v-container>
+    <v-layout class="fes-fun">
+      <v-container fluid style="width: 85%">
+        <h1 class="white--text" align="center"> オンラインを楽しむ！ </h1>
         <v-row justify="center">
-          <v-col class="mx-12 my-6">
-            <WarnSquare
-              title="学内入構について"
-              icon="mdi-minus-circle"
-              rgb="#FF3F43"
-              description="高専祭開催中は関係者のみ入構が許可されており、一般の方は入構できません。予めご了承ください。"
+          <v-col class="mx-12 my-3">
+            <InfoSquare
+              title="実行委員会より"
+              icon="mdi-magnify"
+              link="about"
             />
           </v-col>
-          <v-col class="mx-12 my-6">
-            <WarnSquare
-              title="サイトについて"
-              icon="mdi-lan-disconnect"
-              rgb="#7F41C0"
-              description="サーバーに高負荷をかける行為はおやめください。"
+          <v-col class="mx-12 my-3">
+            <InfoSquare
+              title="部活科展"
+              icon="mdi-biathlon"
+              link="club"
             />
           </v-col>
-          <v-col class="mx-12 my-6">
-            <WarnSquare
-              title="お問い合わせ"
-              icon="mdi-email"
-              rgb="#40C07F"
-              description="高専祭実行委員会へは下記にお問い合わせください。"
-              url="https://www.nara-k.ac.jp/inquiry/"
-              urlDesc="奈良高専 学生課学生係"
+        </v-row>
+        <v-row justify="center">
+          <v-col class="mx-12 my-3">
+            <InfoSquare
+              title="学科展"
+              icon="mdi-school"
+              link="course"
+            />
+          </v-col>
+          <v-col class="mx-12 my-3">
+            <InfoSquare
+              title="企画(ライブ配信)"
+              icon="mdi-animation-play"
+              link="live"
             />
           </v-col>
         </v-row>
       </v-container>
-      <v-layout class="fes-fun">
-        <v-container fluid style="width: 85%">
-          <h1 class="white--text" align="center"> オンラインを楽しむ！ </h1>
-          <v-row justify="center">
-            <v-col class="mx-12 my-3">
-              <InfoSquare
-                title="実行委員会より"
-                icon="mdi-magnify"
-                link="about"
-              />
-            </v-col>
-            <v-col class="mx-12 my-3">
-              <InfoSquare
-                title="部活科展"
-                icon="mdi-biathlon"
-                link="club"
-              />
-            </v-col>
-          </v-row>
-          <v-row justify="center">
-            <v-col class="mx-12 my-3">
-              <InfoSquare
-                title="学科展"
-                icon="mdi-school"
-                link="course"
-              />
-            </v-col>
-            <v-col class="mx-12 my-3">
-              <InfoSquare
-                title="企画(ライブ配信)"
-                icon="mdi-animation-play"
-                link="live"
-              />
-            </v-col>
-          </v-row>
-        </v-container>
-      </v-layout>
+    </v-layout>
   </v-app>
 </template>
 
@@ -103,6 +130,7 @@ export default {
   data() {
     return {
       top_image: require('@/assets/light-grey-terrazzo.png'),
+      theme_image: require('@/assets/theme_illust.png'),
     }
   } 
 }
@@ -115,5 +143,9 @@ export default {
 
 .fes-fun {
   background: url('~assets/low_contrast_linen.png') fixed repeat round;
+}
+
+.theme {
+  background-color: #F5DEB3;
 }
 </style>
