@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app class="course-page">
     <v-container>
       <v-row no-gutters>
         <v-col class="pa-2" cols="12">
@@ -18,3 +18,9 @@
     </v-container>
   </v-app>
 </template>
+
+<style scoped>
+.course-page {
+  background: url('~assets/ep_naturalwhite.png') fixed repeat round;
+}
+</style>
