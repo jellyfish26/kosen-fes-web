@@ -29,7 +29,12 @@
 </style>
 
 <script>
+import CoursePanel from '@/components/CoursePanel'
+
 export default {
+  components: {
+    CoursePanel
+  },
   data() {
     return {
       course: [
