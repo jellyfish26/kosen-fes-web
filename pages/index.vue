@@ -18,7 +18,7 @@
       </v-row>
     </v-container>
     <v-layout class="theme">
-      <v-container fluid style="width: 75%">
+      <v-container fluid style="width: 85%">
         <v-row no-gutters>
           <v-col class="pa-2" cols="12">
             <h1 align="center"> テーマ </h1>
@@ -31,16 +31,15 @@
           <v-col class="pa-2">
             <v-layout justify-center>
               <v-img
-                min-width="150px"
-                max-width="350px"
+                max-width="320px"
                 :src="theme_image"
               > </v-img>
             </v-layout>
           </v-col>
-          <v-col class="py-2">
-            <v-layout align-center>
-              <p class="title" align="left"> 今年のテーマは「高専CUBE　～色とりどりに染め上げよう～」に決定しました！ </p>
-            </v-layout>
+          <v-col class="py-2 px-2">
+            <p class="title" align="left"> 今年のテーマは「高専CUBE　～色とりどりに染め上げよう～」に決定しました！ </p>
+            <p class="title" align="left"> それぞれの個性（色）でいくつもの面を染め上げて，ひとつの大きなキューブを作り上げようという思いが込められています． </p>
+            <p class="title" align="left"> それぞれの個性を生かした展示をお楽しみください！ </p>
           </v-col>
         </v-row>
       </v-container>
