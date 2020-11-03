@@ -23,3 +23,7 @@ BY: Subtle Patterns © Toptal Designers.
 Made by Dax Kieran  
 https://www.toptal.com/designers/subtlepatterns
 
+**struckaxiom**  
+BY: Subtle Patterns © Toptal Designers.  
+Made by Struck Axiom
+https://www.toptal.com/designers/subtlepatterns

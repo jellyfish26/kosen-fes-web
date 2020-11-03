@@ -2,8 +2,8 @@
   <v-app>
     <v-container fluid style="width: 85%">
       <v-row no-gutters>
-        <v-col class="py-15" cols="12">
-          <p class="display-1" align="center"> 実行委員会より </p>
+        <v-col class="py-12" cols="12">
+          <h1 align="center"> 実行委員会より </h1>
         </v-col>
         <v-col class="pa-2" cols="12">
           <p class="subtitle" align="left"> 2020年度，奈良高専祭ホームページへようこそ．</p>
