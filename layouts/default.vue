@@ -35,7 +35,7 @@
     <v-main>
       <nuxt />
     </v-main>
-    <v-footer>
+    <v-footer app>
       <span>&copy; 2020 情報処理研究会</span>
     </v-footer>
   </v-app>
