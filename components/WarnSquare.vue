@@ -3,8 +3,8 @@
     <v-card
       :style="{ 'border': '5px solid ' + rgb}"
       height="100%"
-      min-height="300px"
-      width="300px"
+      min-height="310px"
+      width="310px"
       outlined
     >
       <v-layout 

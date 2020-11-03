@@ -17,7 +17,7 @@
                 <h3> 奈良高専祭 </h3>
               </v-list-item-title>
               <v-list-item-subtitle>
-                「LINK ~繋がる，広がる，最先端！~」
+                LINK ~繋がる，広がる，最先端！~
               </v-list-item-subtitle>
             </v-list-item-content>
           </v-list-item>

@@ -24,21 +24,22 @@
             <h1 align="center"> テーマ </h1>
           </v-col>
           <v-col class="pa-2" cols="12">
-            <h3 align="center"> 「高専CUBE　～色とりどりに染め上げよう～」 </h3>
+            <h2 align="center" class="font-weight-black"> 「高専CUBE　～色とりどりに染め上げよう～」 </h2>
           </v-col>
         </v-row>
         <v-row no-gutters justify="center" align="center">
           <v-col class="pa-2">
             <v-layout justify-center>
               <v-img
+                min-width="150px"
                 max-width="350px"
                 :src="theme_image"
               > </v-img>
             </v-layout>
           </v-col>
-          <v-col class="pa-2">
+          <v-col class="py-2">
             <v-layout align-center>
-              <p class="title" align="left"> temp temp </p>
+              <p class="title" align="left"> 今年のテーマは「高専CUBE　～色とりどりに染め上げよう～」に決定しました！ </p>
             </v-layout>
           </v-col>
         </v-row>
