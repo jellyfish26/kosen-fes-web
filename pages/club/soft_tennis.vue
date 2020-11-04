@@ -3,13 +3,13 @@
     <v-container>
       <v-row no-gutters>
         <v-col class="py-12" cols="12">
-          <h1 align="center"> 少林寺拳法部 </h1>
+          <h1 align="center"> ソフトテニス部 </h1>
         </v-col>
       </v-row>
     </v-container>
     <v-container style="width: 85%">
       <HLSVideo
-        src="https://cdn.nitncfes.net/shorinji_kempo/main/video.m3u8"
+        src="https://cdn.nitncfes.net/soft_tennis/main/video.m3u8"
       />
     </v-container>
   </v-app>

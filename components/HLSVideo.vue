@@ -1,5 +1,5 @@
 <template>
-<vue-core-video-player :core="HLSCore" :src="src" />
+<vue-core-video-player :core="HLSCore" :src="src"/>
 </template>
 
 
@@ -9,14 +9,13 @@ import HLSCore from '@core-player/playcore-hls'
 export default {
   props: {
     src: {
-      type: String,
-      default: ''
+      type: Array
     },
   },
   data() {
     return {
       HLSCore
     }
-  }
+  },
 }
 </script>

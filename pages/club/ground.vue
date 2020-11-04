@@ -9,7 +9,7 @@
     </v-container>
     <v-container style="width: 85%">
       <HLSVideo
-        src = "https://cdn.nitncfes.net/ground/ground.m3u8"
+        src="https://cdn.nitncfes.net/ground/main/video.m3u8"
       />
     </v-container>
   </v-app>
@@ -28,5 +28,9 @@ export default {
   components: {
     HLSVideo
   },
+  data() {
+    return {
+    }
+  }
 }
 </script>

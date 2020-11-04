@@ -98,7 +98,7 @@ export default {
         {
           name: "ソフトテニス部",
           description: "部活紹介！！！",
-          url: "/club/softball_tennis"
+          url: "/club/soft_tennis"
         },
         {
           name: "弓道部",
