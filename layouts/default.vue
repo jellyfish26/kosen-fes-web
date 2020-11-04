@@ -1,5 +1,5 @@
 <template>
-  <v-app dark>
+  <v-app>
     <v-navigation-drawer
       v-if="this.$vuetify.breakpoint.width < 1264"
       v-model="drawer"

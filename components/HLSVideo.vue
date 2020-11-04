@@ -1,5 +1,5 @@
 <template>
-<vue-core-video-player :core="HLSCore" :src="src"/>
+<vue-core-video-player :core="HLSCore" :src="src" autoplay/>
 </template>
 
 

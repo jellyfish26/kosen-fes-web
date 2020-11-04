@@ -108,11 +108,11 @@ export default {
         {
           name: "硬式テニス部",
           description: "〜Come On！〜活動紹介ポスターへようこそ",
-          url: "/club/hardball_tennis"
+          url: "/club/hard_tennis"
         },
         {
           name: "水泳部",
-          description: "hoge",
+          description: "",
           url: "/club/swimming"
         },
       ],
@@ -120,7 +120,7 @@ export default {
         {
           name: "美術部",
           description: "各部員が自分の「得意」や、「好きなこと」で、イラスト･絵画・工作を作成しました。",
-          url: "/club/swimming"
+          url: "/club/art"
         },
         {
           name: "情報処理研究会",
@@ -129,7 +129,7 @@ export default {
         },
         {
           name: "機械研究会",
-          description: "hoge",
+          description: "",
           url: "/club/mechanical"
         },
       ],
