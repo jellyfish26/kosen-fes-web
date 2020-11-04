@@ -93,7 +93,7 @@ export default {
         {
           name: "少林寺拳法部",
           description: "少林寺拳法の紹介ビデオです。",
-          url: "/club/shaolin_boxing"
+          url: "/club/shorinji_kempo"
         },
         {
           name: "ソフトテニス部",
