@@ -9,7 +9,7 @@
     </v-container>
     <v-container style="width: 85%">
       <HLSVideo
-        src="https://cdn.nitncfes.net/soft_tennis/main/video.m3u8"
+        src="https://cdn.nitncfes.net/soft_tennis/main/360_video.m3u8"
       />
     </v-container>
   </v-app>
