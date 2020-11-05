@@ -3,10 +3,10 @@
     <v-container>
       <v-row no-gutters>
         <v-col class="py-12" cols="12">
-          <h1 align="center"> 合気道部 </h1>
+          <h1 align="center"> 1年情報工学科 </h1>
         </v-col>
         <v-col class="py-12" cols="12">
-          <h2 align="center"> 準備中です。 </h2>
+          <h2 align="center"> 現時点で展示できません。 </h2>
         </v-col>
       </v-row>
     </v-container>

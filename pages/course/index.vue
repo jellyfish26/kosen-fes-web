@@ -40,8 +40,9 @@ export default {
       course: [
         {
           name: "機械工学科",
-          description: "nothing",
-          rgb: "#ff7a7a"
+          description: "",
+          rgb: "#ff7a7a",
+          url: "/course/M/"
         },
         {
           name: "電気工学科",
@@ -51,17 +52,20 @@ export default {
         {
           name: "電子制御工学科",
           description: "課題解決型実験の動画と電子工作",
-          rgb: "#7fff7a"
+          rgb: "#7fff7a",
+          url: "/course/S/"
         },
         {
           name: "情報工学科",
           description: "みんなで遊ぶ放置ゲーム（鹿煎餅増やしゲーム）AIと対戦，カスタム可能オセロ",
-          rgb: "#7ac1ff"
+          rgb: "#7ac1ff",
+          url: "/course/I/"
         },
         {
           name: "物質科学工学科",
           description: "いろいろな実験を見てみよう！楽しい実験がいっぱい(^^♪ 分かりやすい解説付きです．",
-          rgb: "#9e7aff"
+          rgb: "#9e7aff",
+          url: "/course/C/"
         }
       ]
     }

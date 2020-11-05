@@ -3,12 +3,14 @@
     <v-container>
       <v-row no-gutters>
         <v-col class="py-12" cols="12">
-          <h1 align="center"> 合気道部 </h1>
-        </v-col>
-        <v-col class="py-12" cols="12">
-          <h2 align="center"> 準備中です。 </h2>
+          <h1 align="center"> 図書委員会 </h1>
         </v-col>
       </v-row>
+    </v-container>
+    <v-container style="width: 85%">
+      <HLSVideo
+        src="https://cdn.nitncfes.net/library/main/video.m3u8"
+      />
     </v-container>
   </v-app>
 </template>

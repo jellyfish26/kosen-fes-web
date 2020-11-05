@@ -137,7 +137,7 @@ export default {
         {
           name: "手芸同好会",
           description: "作品の写真と活動の動画",
-          url: "/club/handicrafts"
+          url: "/club/handicraft"
         },
         {
           name: "クイズ研究会",
@@ -146,8 +146,8 @@ export default {
         },
         {
           name: "数学同好会",
-          description: "数学同好会は，マンデルブロ集合の紹介，ギャラリー，そして実際にマンデルブロ集合の世界に入り込めるシュミレーターを提供します．マンデルブロ集合の織りなすフラクタル世界の旅をお楽しみください",
-          url: "/club/coop"
+          description: "数学同好会は，マンデルブロ集合の紹介，ギャラリー，そして実際にマンデルブロ集合の世界に入り込めるシュミレーターを提供します．",
+          href: "https://mandelbrot.nitncfes.net/"
         },
         {
           name: "合唱同好会",

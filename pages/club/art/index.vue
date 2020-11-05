@@ -3,7 +3,7 @@
     <v-container>
       <v-row no-gutters>
         <v-col class="py-12" cols="12">
-          <h1 align="center"> 合気道部 </h1>
+          <h1 align="center"> 美術部 </h1>
         </v-col>
         <v-col class="py-12" cols="12">
           <h2 align="center"> 準備中です。 </h2>

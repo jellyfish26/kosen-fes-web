@@ -3,19 +3,24 @@
     <v-container>
       <v-row no-gutters>
         <v-col class="py-12" cols="12">
-          <h1 align="center"> 合気道部 </h1>
+          <h1 align="center"> 機械工学科 </h1>
         </v-col>
         <v-col class="py-12" cols="12">
-          <h2 align="center"> 準備中です。 </h2>
+          <h2 align="center"> ラジコンプレーン </h2>
         </v-col>
       </v-row>
+    </v-container>
+     <v-container style="width: 85%">
+      <HLSVideo
+        src="https://cdn.nitncfes.net/M/radicon/video.m3u8"
+      />
     </v-container>
   </v-app>
 </template>
 
 <style scoped>
 .club-page {
-  background: url('~assets/struckaxiom.png') fixed repeat round;
+  background: url('~assets/ep_naturalwhite.png') fixed repeat round;
 }
 </style>
 
