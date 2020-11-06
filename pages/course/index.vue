@@ -14,6 +14,7 @@
             :title="item.name"
             :description="item.description"
             :url="item.url"
+            :href="item.href"
             :rgb="item.rgb"
           />
         </v-col>
@@ -40,14 +41,15 @@ export default {
       course: [
         {
           name: "機械工学科",
-          description: "",
+          description: "学科+課外活動の紹介　〜オモイをカタチに〜",
           rgb: "#ff7a7a",
           url: "/course/M/"
         },
         {
           name: "電気工学科",
           description: "電気科展では、これまでに展示してきた展示品に加え、新しく展示する企画もあり、いろとりどりの展示品が並ぶ科展となっております。特設HPと併せて、是非ご覧ください！！！",
-          rgb: "#ffe77a"
+          rgb: "#ffe77a",
+          href: "https://sites.google.com/view/colorful-erectric-exhibits"
         },
         {
           name: "電子制御工学科",

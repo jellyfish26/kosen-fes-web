@@ -112,7 +112,7 @@ export default {
         },
         {
           name: "水泳部",
-          description: "",
+          description: "水泳部のPR動画（水泳部の一年間，部員インタビュー，バカッコイイ水泳部）",
           url: "/club/swimming"
         },
       ],
@@ -129,7 +129,7 @@ export default {
         },
         {
           name: "機械研究会",
-          description: "",
+          description: "個人が製作したルアーや絵、模型等を文字付きで公開",
           url: "/club/mechanical"
         },
       ],
@@ -173,6 +173,11 @@ export default {
           name: "図書委員会",
           description: "新図書館とおすすめの本",
           url: "/club/library"
+        },
+        {
+          name: "高専祭実行委員会",
+          description: "",
+          url: "/club/kosensai"
         },
       ]
     }

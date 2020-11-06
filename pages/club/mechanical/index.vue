@@ -3,7 +3,7 @@
     <v-container>
       <v-row no-gutters>
         <v-col class="py-12" cols="12">
-          <h1 align="center"> 水泳部 </h1>
+          <h1 align="center"> 機械研究会 </h1>
         </v-col>
       </v-row>
     </v-container>
@@ -12,21 +12,15 @@
         <v-col cols="12">
           <v-layout align-center>
             <v-icon size="35">mdi-menu-right</v-icon>
-            <nuxt-link class="mx-3 title" to="/club/swimming/promotion"> プロモーションビデオ </nuxt-link>
+            <nuxt-link class="mx-3 title" to="/club/mechanical/promotion"> プロモーションビデオ </nuxt-link>
           </v-layout>  
         </v-col>
         <v-col cols="12">
           <v-layout align-center>
             <v-icon size="35">mdi-menu-right</v-icon>
-            <nuxt-link class="mx-3 title" to="/club/swimming/cool"> バカかっこいい </nuxt-link>
+            <nuxt-link class="mx-3 title" to="/club/mechanical/individual"> 個人制作紹介 </nuxt-link>
           </v-layout>  
         </v-col>
-        <v-col cols="12">
-          <v-layout align-center>
-            <v-icon size="35">mdi-menu-right</v-icon>
-            <nuxt-link class="mx-3 title" to="/club/swimming/interview"> インタビュー </nuxt-link>
-          </v-layout>  
-        </v-col>   
       </v-row>
     </v-container>
   </v-app>

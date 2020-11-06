@@ -3,10 +3,22 @@
     <v-container>
       <v-row no-gutters>
         <v-col class="py-12" cols="12">
-          <h1 align="center"> 合気道部 </h1>
+          <h1 align="center"> 美術部 </h1>
         </v-col>
         <v-col class="py-12" cols="12">
-          <h2 align="center"> 準備中です。 </h2>
+          <h2 align="center"> イラスト </h2>
+        </v-col>
+      </v-row>
+    </v-container>
+    <v-container fluid style="width: 85%">
+      <v-row no-gutters>
+        <v-col class="py-3" cols="12" >
+          <v-layout justify-center>
+            <v-img
+              max-width="350px"
+              src="https://cdn.nitncfes.net/art/collection/11/first.jpg"
+            > </v-img>
+          </v-layout>
         </v-col>
       </v-row>
     </v-container>

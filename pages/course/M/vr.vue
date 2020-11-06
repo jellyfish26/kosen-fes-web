@@ -3,7 +3,7 @@
     <v-container>
       <v-row no-gutters>
         <v-col class="py-12" cols="12">
-          <h1 align="center"> 手芸同好会 </h1>
+          <h1 align="center"> 機械工学科 </h1>
         </v-col>
         <v-col class="py-12" cols="12">
           <h2 align="center"> VRTexanKosenSai </h2>

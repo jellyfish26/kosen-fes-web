@@ -24,12 +24,6 @@
         <v-col cols="12">
           <v-layout align-center>
             <v-icon size="35">mdi-menu-right</v-icon>
-            <nuxt-link class="mx-3 title" to="/course/M/radicon"> ラジコンプレーン </nuxt-link>
-          </v-layout>  
-        </v-col>
-        <v-col cols="12">
-          <v-layout align-center>
-            <v-icon size="35">mdi-menu-right</v-icon>
             <nuxt-link class="mx-3 title" to="/course/M/sikatyu"> シカチュー </nuxt-link>
           </v-layout>  
         </v-col>

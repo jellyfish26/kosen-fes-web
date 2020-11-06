@@ -3,12 +3,17 @@
     <v-container>
       <v-row no-gutters>
         <v-col class="py-12" cols="12">
-          <h1 align="center"> 1年情報工学科 </h1>
+          <h1 align="center"> 機械研究会 </h1>
         </v-col>
         <v-col class="py-12" cols="12">
-          <h2 align="center"> 掲載まで今しばらくお待ち下さい </h2>
+          <h2 align="center"> 個人制作PV </h2>
         </v-col>
       </v-row>
+    </v-container>
+     <v-container style="width: 85%">
+      <HLSVideo
+        src="https://cdn.nitncfes.net/individual/main/video.m3u8"
+      />
     </v-container>
   </v-app>
 </template>

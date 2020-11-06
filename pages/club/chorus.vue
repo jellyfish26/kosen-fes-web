@@ -10,13 +10,13 @@
     <v-container fluid style="width: 85%">
       <v-row no-gutters>
         <v-col class="pa-2" cols="12">
-            <v-layout justify-center>
-              <v-img
-                max-width="700px"
-                src="https://cdn.nitncfes.net/chorus/chorus.jpg"
-              > </v-img>
-            </v-layout>
-          </v-col>
+          <v-layout justify-center>
+            <v-img
+              max-width="700px"
+              src="https://cdn.nitncfes.net/chorus/chorus.jpg"
+            > </v-img>
+          </v-layout>
+        </v-col>
         <v-col class="py-12" cols="12">
           <v-col class="pa-2" cols="12">
           <p class="subtitle" align="left"> 合唱同好会は、毎週木曜の15:30〜16:30まで、凌雲館2F(購買の上です)の南多目的室で活動しています！ </p>
