@@ -6,7 +6,7 @@
           <h1 align="center"> 水泳部 </h1>
         </v-col>
         <v-col class="py-12" cols="12">
-          <h2 align="center"> バカかっこいい </h2>
+          <h2 align="center"> ばかっこいい </h2>
         </v-col>
       </v-row>
     </v-container>

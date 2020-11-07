@@ -18,7 +18,7 @@
         <v-col cols="12">
           <v-layout align-center>
             <v-icon size="35">mdi-menu-right</v-icon>
-            <nuxt-link class="mx-3 title" to="/club/swimming/cool"> バカかっこいい </nuxt-link>
+            <nuxt-link class="mx-3 title" to="/club/swimming/cool"> ばかっこいい </nuxt-link>
           </v-layout>  
         </v-col>
         <v-col cols="12">

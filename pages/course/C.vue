@@ -3,7 +3,7 @@
     <v-container>
       <v-row no-gutters>
         <v-col class="py-12" cols="12">
-          <h1 align="center"> 物質科学工学科 </h1>
+          <h1 align="center"> 物質化学工学科 </h1>
         </v-col>
       </v-row>
     </v-container>

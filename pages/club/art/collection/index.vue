@@ -18,6 +18,12 @@
             <nuxt-link class="mx-3 title" :to="'/club/art/collection/' + i"> 作品{{ i }} </nuxt-link>
           </v-layout>  
         </v-col>
+        <v-col cols="12">
+          <v-layout align-center>
+            <v-icon size="35">mdi-menu-right</v-icon>
+            <nuxt-link class="mx-3 title" to="/club/art/collection/video"> 自由作品動画 </nuxt-link>
+          </v-layout>  
+        </v-col>
       </v-row>
     </v-container>
   </v-app>

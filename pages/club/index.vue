@@ -166,7 +166,7 @@ export default {
         },
         {
           name: "1年情報工学科",
-          description: "新種のパズルゲーム「Lien」",
+          description: "新種のパズルゲーム「Lian」",
           url: "/club/1_info"
         },
         {
@@ -176,7 +176,7 @@ export default {
         },
         {
           name: "高専祭実行委員会",
-          description: "",
+          description: "学内施設(ファブスペース)の紹介",
           url: "/club/kosensai"
         },
       ]

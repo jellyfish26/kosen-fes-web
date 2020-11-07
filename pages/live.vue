@@ -8,11 +8,14 @@
       </v-row>
     </v-container>
     <v-container style="width: 85%">
-       <v-layout justify-center>
-         <YoutubeVideo
-          id="lXuiNmpXu7E"
-        />
-       </v-layout>
+      <v-row no-gutters>
+        <v-col cols="12">
+          <v-layout align-center>
+            <v-icon size="35">mdi-menu-right</v-icon>
+            <a class="mx-3 title white--text" href="https://www.youtube.com/watch?v=lXuiNmpXu7E" target=”_blank”> ライブ配信先 </a>
+          </v-layout>  
+        </v-col>
+      </v-row>
     </v-container>
   </v-app>
 </template>

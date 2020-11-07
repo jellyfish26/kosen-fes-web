@@ -64,7 +64,7 @@ export default {
           url: "/course/I/"
         },
         {
-          name: "物質科学工学科",
+          name: "物質化学工学科",
           description: "いろいろな実験を見てみよう！楽しい実験がいっぱい(^^♪ 分かりやすい解説付きです．",
           rgb: "#9e7aff",
           url: "/course/C/"

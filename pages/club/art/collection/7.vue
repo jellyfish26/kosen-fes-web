@@ -47,6 +47,20 @@
             家の絵:「赤毛のアン」の舞台、カナダのプリンス・エドワード島にある、物語で従姉妹が住んでいたグリーンゲイブルズを透明水彩で書きました。家自体はかなり忠実に再現できたと思います。 
           </p>
         </v-col>
+        <v-col cols="12">
+           <p class="py-3 title font-weight-bold" align="center"> 参考文献 </p>
+        </v-col>
+        <v-col class="py-3" cols="12">
+          <p class="subtitle" align="left"> 
+            風車の絵:『暮らしてみたい 世界のかわいい街』発行:エムディエヌコーポレーション 発行年:2019 pp.74-75 
+          </p>
+          <p class="subtitle" align="left"> 
+            海の絵:上に同じ、p.67
+          </p>
+          <p class="subtitle" align="left"> 
+            赤毛のアンの家:『まるで童話のような 世界のかわいい村と美しい街』発行:パイ インターナショナル 発行年:2016 p.21
+          </p>
+        </v-col>
       </v-row>
     </v-container>
   </v-app>

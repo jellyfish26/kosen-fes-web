@@ -12,7 +12,7 @@
     </v-container>
      <v-container style="width: 85%">
       <HLSVideo
-        src="https://cdn.nitncfes.net/individual/main/video.m3u8"
+        src="https://cdn.nitncfes.net/mechanical/individual/video.m3u8"
       />
     </v-container>
   </v-app>

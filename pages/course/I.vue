@@ -29,12 +29,23 @@
         <v-col cols="12">
           <v-layout align-center>
             <v-icon size="35">mdi-menu-right</v-icon>
-            <a class="mx-3 title" href="https://reversi.nitncfes.net" target=”_blank”> かすたむおせろ </a>
+            <a class="mx-3 title" href="https://reversi.nitncfes.net" target=”_blank”> かすたむりばーし </a>
           </v-layout>  
         </v-col>
         <v-col cols="12">
           <p class="subtitle" align="left"> 
-            なぞなAIと自分でカスタマイズしたオセロで対戦できます。負けるほうが難しいかも…？！
+            なぞなAIと自分でカスタマイズしたリバーシで対戦できます。負けるほうが難しいかも…？！
+          </p>
+        </v-col>
+        <v-col cols="12">
+          <v-layout align-center>
+            <v-icon size="35">mdi-menu-right</v-icon>
+            <a class="mx-3 title" href="https://mahjong.0x9.pw/" target=”_blank”> まーじゃん </a>
+          </v-layout>  
+        </v-col>
+        <v-col cols="12">
+          <p class="subtitle" align="left"> 
+            見るからに麻雀です。そうです。
           </p>
         </v-col>
       </v-row>

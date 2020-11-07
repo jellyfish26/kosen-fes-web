@@ -22,7 +22,7 @@
             <p class="subtitle my-3 mx-2"> {{ description }} </p>
           </v-list-item>
           <v-list-item v-if="url != ''">
-            <a class="mx-2" :href="url"> {{ urlDesc }} </a>
+            <a class="mx-2" :href="url" target=”_blank”> {{ urlDesc }} </a>
           </v-list-item>
         </v-list>
       </v-layout>

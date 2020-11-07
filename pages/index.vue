@@ -115,6 +115,36 @@
         </v-row>
       </v-container>
     </v-layout>
+    <v-layout class="other-content">
+      <v-container
+        fluid
+        style="width: 85%"
+      >
+        <h1 align="center"> その他 </h1>
+        <v-row justify="center">
+          <v-col class="mx-12 my-6">
+            <WarnSquare
+              title="パンフレット"
+              icon="mdi-notebook-outline"
+              rgb="#F57F17"
+              description="高専祭のパンフレットです。沢山情報が載っています！みろよ！"
+              url="https://cdn.nitncfes.net/brochure.pdf"
+              urlDesc="第54回高専祭パンフレット"
+            />
+          </v-col>
+          <v-col class="mx-12 my-6">
+            <WarnSquare
+              title="アンケート"
+              icon="mdi-clipboard-edit-outline"
+              rgb="#F57F17"
+              description="ぜひ、アンケートにご協力ください！！"
+              url="https://forms.gle/JyMuX5D81xMbmR6X6"
+              urlDesc="第54回高専祭アンケート"
+            />
+          </v-col>
+        </v-row>
+      </v-container>
+    </v-layout>
   </v-app>
 </template>
 
@@ -147,5 +177,9 @@ export default {
 
 .theme {
   background-color: #F5DEB3;
+}
+
+.other-content {
+  background-color: #B2EBF2;
 }
 </style>
