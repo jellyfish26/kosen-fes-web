@@ -1,0 +1,22 @@
+{
+  "name": "kosen-fes-web",
+  "version": "1.0.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@core-player/playcore-hls": "^0.1.1",
+    "core-js": "^3.6.5",
+    "nuxt": "^2.14.6",
+    "vue-core-video-player": "^0.2.0",
+    "vue-pdf": "^4.2.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.11.2"
+  }
+}
