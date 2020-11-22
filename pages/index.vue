@@ -9,7 +9,8 @@
           <h1 align="center"> オンライン高専祭！ </h1>
         </v-col>
         <v-col class="pa-2" cols="12">
-          <h3 align="center"> 今年はすべての展示が本サイトにて公開されます！ </h3>
+          <h2 align="center"> 高専祭は終了しました！ </h2>
+          <h2 align="center"> ご覧いただきありがとうございました！ </h2>
         </v-col>
         <v-col class="pa-2" cols="12">
           <h3 align="center"> 開催日： 2020年11月7日</h3>
@@ -122,16 +123,6 @@
       >
         <h1 align="center"> その他 </h1>
         <v-row justify="center">
-          <v-col class="mx-12 my-6">
-            <WarnSquare
-              title="パンフレット"
-              icon="mdi-notebook-outline"
-              rgb="#F57F17"
-              description="高専祭のパンフレットです。沢山情報が載っています！みろよ！"
-              url="https://cdn.nitncfes.net/brochure.pdf"
-              urlDesc="第54回高専祭パンフレット"
-            />
-          </v-col>
           <v-col class="mx-12 my-6">
             <WarnSquare
               title="アンケート"

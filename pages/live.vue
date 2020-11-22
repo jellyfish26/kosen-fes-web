@@ -1,19 +1,13 @@
 <template>
-  <v-app class="live-page">
+  <v-app class="course-page">
     <v-container>
       <v-row no-gutters>
         <v-col class="py-12" cols="12">
-          <h1 align="center" class="white--text"> 企画(ライブ配信) </h1>
+          <h1 class="white--text" align="center"> 企画(ライブ配信) </h1>
         </v-col>
-      </v-row>
-    </v-container>
-    <v-container style="width: 85%">
-      <v-row no-gutters>
-        <v-col cols="12">
-          <v-layout align-center>
-            <v-icon size="35">mdi-menu-right</v-icon>
-            <a class="mx-3 title white--text" href="https://www.youtube.com/watch?v=lXuiNmpXu7E" target=”_blank”> ライブ配信先 </a>
-          </v-layout>  
+        <v-col class="pa-2" cols="12">
+          <h2 class="white--text" align="center"> 高専祭は終了しました！ </h2>
+          <h2 class="white--text" align="center"> ご覧いただきありがとうございました！ </h2>
         </v-col>
       </v-row>
     </v-container>
@@ -21,7 +15,7 @@
 </template>
 
 <style scoped>
-.live-page {
+.course-page {
   background: url('~assets/footer_lodyas.png') fixed repeat round;
 }
 </style>
