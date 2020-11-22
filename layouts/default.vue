@@ -1,5 +1,5 @@
 <template>
-  <v-app dark>
+  <v-app>
     <v-navigation-drawer
       v-if="this.$vuetify.breakpoint.width < 1264"
       v-model="drawer"
@@ -35,7 +35,7 @@
     <v-main>
       <nuxt />
     </v-main>
-    <v-footer>
+    <v-footer app>
       <span>&copy; 2020 情報処理研究会</span>
     </v-footer>
   </v-app>

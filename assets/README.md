@@ -23,3 +23,18 @@ BY: Subtle Patterns © Toptal Designers.
 Made by Dax Kieran  
 https://www.toptal.com/designers/subtlepatterns
 
+**struckaxiom**  
+BY: Subtle Patterns © Toptal Designers.  
+Made by Struck Axiom
+https://www.toptal.com/designers/subtlepatterns
+
+**footer_lodyas**  
+BY: Subtle Patterns © Toptal Designers.  
+Made by Carlos Aguilar.
+https://www.toptal.com/designers/subtlepatterns
+
+
+**ep_naturalwhite**  
+BY: Subtle Patterns © Toptal Designers.  
+Made by Carl
+https://www.toptal.com/designers/subtlepatterns
